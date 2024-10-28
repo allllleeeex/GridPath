@@ -11,5 +11,9 @@ public int getRow()
 { return theRow; } 
 public int getCol() 
 { return theCol; } 
+public String toString()
+{
+    return theRow + ", " + theCol;
+}
 } 
 
