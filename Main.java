@@ -12,16 +12,3 @@ public class Main {
   }
 }
 
-public String toString() 
-{
-    String s = " ";
-    for (int [] row : grid)
-    {
-        for (int col : row) 
-        {
-            s += col + " ";
-        }
-        s += "\n";
-    }
-    return s;
-}
